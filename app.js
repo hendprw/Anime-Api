@@ -115,7 +115,6 @@ let nama = [
      {
      	id: 1,
          nama: 'Hendrik',
-         askot: 'Madura',
          status: 'hidup'
          }
         ];
@@ -145,6 +144,4 @@ app.get('/funfact', async (req, res, next) => {
 })
 
 
-
-// mendengarkan event yang terjadi pada localhost dengan port 3000
-//app.listen(3000, () => console.log('listenig on localhos:3000'));
+app.listen(3000, () => console.log('listenig on localhos:3000'));
